@@ -1,4 +1,8 @@
 trigger:
+- task: GitHubComment@0
+  inputs:
+    gitHubConnection: 'Arunkumar0126'
+    repositoryName: 'asd'
 - main  # Trigger the pipeline on changes to the main branch
 
 stages:
